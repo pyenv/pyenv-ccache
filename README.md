@@ -15,7 +15,7 @@ Make sure you have pyenv 0.2.0 or later, then run:
 
 ## How It Works
 
-pyenv-pip-rehash hooks every invokation of `pyenv install` commands, then injecting `ccache` into `cc`.
+pyenv-ccache hooks every invokation of `pyenv install` commands, then injecting `ccache` into `cc`.
 
 ## History
 
