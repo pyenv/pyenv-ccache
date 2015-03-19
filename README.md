@@ -4,9 +4,30 @@ Make Python build faster, with using the leverage of `ccache`.
 
 ## Installation
 
+### Installing as a pyenv plugin
+
 Make sure you have pyenv 0.2.0 or later, then run:
 
     git clone https://github.com/yyuu/pyenv-ccache.git ~/.pyenv/plugins/pyenv-ccache
+
+
+### Installing with Homebrew (for OS X users)
+
+Mac OS X users can install pyenv-ccache with the
+[Homebrew](http://brew.sh) package manager.
+
+*This is the recommended method of installation if you installed pyenv
+ with Homebrew.*
+
+```
+$ brew install pyenv-ccache
+```
+
+Or, if you would like to install the latest development release:
+
+```
+$ brew install --HEAD pyenv-ccache
+```
 
 ## Usage
 
