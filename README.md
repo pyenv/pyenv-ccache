@@ -8,7 +8,7 @@ Make Python build faster, with using the leverage of `ccache`.
 
 Make sure you have pyenv 0.2.0 or later, then run:
 
-    git clone https://github.com/yyuu/pyenv-ccache.git $(pyenv root)/plugins/pyenv-ccache
+    git clone https://github.com/pyenv/pyenv-ccache.git $(pyenv root)/plugins/pyenv-ccache
 
 
 ### Installing with Homebrew (for OS X users)
