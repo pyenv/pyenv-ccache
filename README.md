@@ -36,7 +36,7 @@ $ brew install --HEAD pyenv-ccache
 
 ## How It Works
 
-pyenv-ccache hooks every invokation of `pyenv install` commands, then injecting `ccache` into `cc`.
+pyenv-ccache hooks every invocation of `pyenv install` commands, then injecting `ccache` into `cc`.
 
 ## History
 
