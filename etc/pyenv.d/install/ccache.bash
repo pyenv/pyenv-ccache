@@ -43,6 +43,8 @@ setup_ccache() {
   fi
 
   export CCACHE_BASEDIR="${PYTHON_BUILD_BUILD_PATH}"
+  # Use custom cache location to allow the cache be cleared and configured separately
+  export CCACHE_DIR=$(pyenv root)/ccache
   export CC="ccache $(command -v "$CC" || command -v "cc" || true)"
   export CXX="ccache $(command -v "$CXX" || command -v "c++" || true)"
 }
